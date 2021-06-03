@@ -1,0 +1,6 @@
+mbrush("black_brush",brush(2,4473924))
+mbrush("black_king_brush",brush(2,0))
+mbrush("field_white_brush",brush(2,52479))
+mbrush("field_black_brush",brush(2,26265))
+mbrush("white_brush",brush(2,12632256))
+mbrush("white_king_brush",brush(2,16777215))
