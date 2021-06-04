@@ -798,4 +798,4 @@ clauses
 			Точка входа
 ***************************************************************************/
 goal
-  vpi_Init(task_win_Flags,task_win_eh,task_win_Menu,"Шашки",task_win_Title).
+  vpi_Init(task_win_Flags,task_win_eh,task_win_Menu,task_win_Title,task_win_Title).

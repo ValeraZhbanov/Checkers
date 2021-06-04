@@ -349,7 +349,7 @@ clauses
     retract(route(Depth,P,End,Points),route),!,
     estimate_route(broute(P,End,Points),Depth,V),
     best_route(Color,Best,V,B),!,
-    estimate_route(Depth,Color,B,Value),
+    estimate_static(Depth,Color,B,Value),
   !;Value=Best,!.
   
   estimate_static(Enemy,Depth,Value):-
