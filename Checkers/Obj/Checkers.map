@@ -1,5 +1,5 @@
  PDC Linker 50.35 20000313.10.LINK55.
-  Module 'Exe\Checkers.exe' Map. Sun May 23 21:53:54 2021
+  Module 'Exe\Checkers.exe' Map. Fri Jun 04 17:29:28 2021
 
 Frame 010000   Size 0071E0.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 Frame 020000   Size 000210.  Name=<  .rdata>, 	Chars=40000040h. [IR]
@@ -32,8 +32,8 @@ Frame 010000   Size 0071E0.  Name=<   .data>, 	Chars=C0000040h. [IRW]
    0117D8   Module 'rntcfci.obj'
 010000:0017D8 0059EC   .data::DATA::DGROUP F=4
    0117D8   Module 'D:\Sourse\VisualProlog\Vpi\Lib\Win32\MSC\Init32.obj'
-   011838   Module 'D:\Study\Логическое программирование\РГР\Checkers\Obj\VPITools.obj'
-   011CD8   Module 'D:\Study\Логическое программирование\РГР\Checkers\Obj\Checkers.obj'
+   011838   Module 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\VPITools.obj'
+   011CD8   Module 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\Checkers.obj'
    0142E8   Module 'Obj\Checkers.sym'
    015988   Module 'VPIERR.OBJ'
    0159E0   Module 'VPISYS.OBJ'
@@ -120,8 +120,8 @@ Frame 030000   Size 047790.  Name=<   .text>, 	Chars=60000020h. [CER]
 030000:000000 046DA0   .text::CODE::<no group> F=4
    030000   Module 'D:\Sourse\VisualProlog\Vpi\Lib\Win32\MSC\Init32.obj'
    0300A0   Module 'D:\Sourse\VisualProlog\Vpi\Lib\Win32\MSC\CMain.obj'
-   0301B0   Module 'D:\Study\Логическое программирование\РГР\Checkers\Obj\VPITools.obj'
-   03D880   Module 'D:\Study\Логическое программирование\РГР\Checkers\Obj\Checkers.obj'
+   0301B0   Module 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\VPITools.obj'
+   03D880   Module 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\Checkers.obj'
    042CC0   Module 'Obj\Checkers.sym'
    042CC0   Module 'VPIERR.OBJ'
    042E70   Module 'VPISYS.OBJ'
@@ -293,8 +293,8 @@ Frame 030000   Size 047790.  Name=<   .text>, 	Chars=60000020h. [CER]
 
 Frame 080000   Size 000830.  Name=<  PRODBG>, 	Chars=C0000040h. [IRW]
 080000:000000 000830   PRODBG::PRODBG::PRODBG F=4
-   080000   Module 'D:\Study\Логическое программирование\РГР\Checkers\Obj\VPITools.obj'
-   080290   Module 'D:\Study\Логическое программирование\РГР\Checkers\Obj\Checkers.obj'
+   080000   Module 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\VPITools.obj'
+   080290   Module 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\Checkers.obj'
    080830   Module 'Obj\Checkers.sym'
 
 Frame 090000   Size 000650.  Name=<    .bss>, 	Chars=C0000080h. [URW]
@@ -310,7 +310,7 @@ Frame 010000   Size 0071E0.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 01:0001182A _INIT_StartOfData 
 --- From 'D:\Sourse\VisualProlog\Vpi\Lib\Win32\MSC\CMain.obj'
 01:0001182B _PROLOG_ModTab 
---- From 'D:\Study\Логическое программирование\РГР\Checkers\Obj\Checkers.obj'
+--- From 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\Checkers.obj'
 01:00011E1E $global$dom$char 
 01:00011E36 $global$dom$byte 
 01:00011E4E $global$dom$sbyte 
@@ -438,7 +438,7 @@ Frame 010000   Size 0071E0.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 01:000129BE $global$dom$dialog_val_list 
 01:000129D6 $global$dom$dialog_val 
 01:000129EE $global$dom$dialog_item_val 
-01:00014281 _PROLOG_Vars 
+01:0001428A _PROLOG_Vars 
 --- From 'Obj\Checkers.sym'
 01:000142E8 _PROLOG_SymbolTable 
 --- From 'VPISYS.OBJ'
@@ -628,12 +628,12 @@ Frame 030000   Size 047790.  Name=<   .text>, 	Chars=60000020h. [CER]
 03:0003002F _PDCPrologStart  (Idle)
 --- From 'D:\Sourse\VisualProlog\Vpi\Lib\Win32\MSC\CMain.obj'
 03:000300A0 _WinMain@16 
---- From 'D:\Study\Логическое программирование\РГР\Checkers\Obj\VPITools.obj'
+--- From 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\VPITools.obj'
 03:000301B1 VPITools$StackOverFlow  (Idle)
 03:000301B6 VPITools$error  (Idle)
---- From 'D:\Study\Логическое программирование\РГР\Checkers\Obj\Checkers.obj'
+--- From 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\Checkers.obj'
 03:000301C4 DIALOG_CREATEMODAL 
---- From 'D:\Study\Логическое программирование\РГР\Checkers\Obj\VPITools.obj'
+--- From 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\VPITools.obj'
 03:00030264 DIALOG_CREATEMODELESS  (Idle)
 03:00030308 DIALOG_CREATE 
 03:00030700 dialog_SetFields_0  (Idle)
@@ -650,9 +650,9 @@ Frame 030000   Size 047790.  Name=<   .text>, 	Chars=60000020h. [CER]
 03:00031158 DIALOG_VLGETLISTEDIT 
 03:00031208 DIALOG_VLGETSCROLLBAR 
 03:000312BC dialog_VLGetListBox_0 
---- From 'D:\Study\Логическое программирование\РГР\Checkers\Obj\Checkers.obj'
+--- From 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\Checkers.obj'
 03:0003135C dialog_VLGetListButton_0 
---- From 'D:\Study\Логическое программирование\РГР\Checkers\Obj\VPITools.obj'
+--- From 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\VPITools.obj'
 03:000313FC dialog_VLGetCustom_0 
 03:0003149C DIALOG_VLGETDATAFIELD 
 03:0003154C DIALOG_VLGETALLLIST 
@@ -804,7 +804,7 @@ Frame 030000   Size 047790.  Name=<   .text>, 	Chars=60000020h. [CER]
 03:0003D78C VPITools$simple_validate_fields$452  (Idle)
 --- From 'VPIMISC.OBJ'
 03:0003D880 _PROLOG_ErrReport 
---- From 'D:\Study\Логическое программирование\РГР\Checkers\Obj\Checkers.obj'
+--- From 'D:\Study\Логическое программирование\РГР\Checkers\Checkers\Obj\Checkers.obj'
 03:0003D885 _CFG_Load  (Idle)
 03:0003D887 Checkers$StackOverFlow  (Idle)
 03:0003D88C Checkers$error  (Idle)
@@ -841,7 +841,7 @@ Frame 030000   Size 047790.  Name=<   .text>, 	Chars=60000020h. [CER]
 03:0003F8D8 Checkers$find_and_make_computer_move$362  (Idle)
 03:0003FA18 Checkers$estimate_route$363  (Idle)
 03:0003FBFC Checkers$estimate_route$364  (Idle)
-03:0003FDFC Checkers$estimate_route$365  (Idle)
+03:000400A8 Checkers$estimate_route$365  (Idle)
 03:000402A8 Checkers$estimate_static$366  (Idle)
 03:0004034C Checkers$estimate_static$367  (Idle)
 03:000405DC Checkers$deepening$368  (Idle)
